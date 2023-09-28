@@ -3,6 +3,7 @@ $GroupName = "Students23Fall"
 $TenantID = "e39de75c-b796-4bdd-888d-f3d21250910c"
 $ClientId = "26d186fa-3037-4f87-a2a7-e18a300a92ad"
 $SPNsecret = "CCY8Q~qm7dVbrMwSIgzbb1dWIVklxEl-MuflLdnt"
+$SemseterStudentList = "*\Students.csv"
 
 $ClientSecretPass = ConvertTo-SecureString -String $SPNsecret -AsPlainText -Force
 
